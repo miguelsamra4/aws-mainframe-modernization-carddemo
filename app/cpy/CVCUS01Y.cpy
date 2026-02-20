@@ -8,7 +8,9 @@
            05  CUST-LAST-NAME                          PIC X(25).
            05  CUST-ADDR-LINE-1                        PIC X(50).
            05  CUST-ADDR-LINE-2                        PIC X(50).
-           05  CUST-ADDR-LINE-3                        PIC X(50).         
+           05  CUST-ADDR-LINE-3                        PIC X(50).
+           05  CUST-ADDR-LINE-4                        PIC X(50).
+           05  CUST-ADDR-LINE-5                        PIC X(50).
            05  CUST-ADDR-STATE-CD                      PIC X(02).
            05  CUST-ADDR-COUNTRY-CD                    PIC X(03).
            05  CUST-ADDR-ZIP                           PIC X(10).
@@ -20,7 +22,7 @@
            05  CUST-EFT-ACCOUNT-ID                     PIC X(10).
            05  CUST-PRI-CARD-HOLDER-IND                PIC X(01).
            05  CUST-FICO-CREDIT-SCORE                  PIC 9(03).
-           05  FILLER                                  PIC X(168).      
+           05  FILLER                                  PIC X(68).      
       *
       * Ver: CardDemo_v1.0-15-g27d6c6f-68 Date: 2022-07-19 23:16:00 CDT
       *

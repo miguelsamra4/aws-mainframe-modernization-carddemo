@@ -26,7 +26,7 @@
                10  EXP-CUST-FIRST-NAME             PIC X(25).
                10  EXP-CUST-MIDDLE-NAME            PIC X(25).
                10  EXP-CUST-LAST-NAME              PIC X(25).
-               10  EXP-CUST-ADDR-LINES OCCURS 3 TIMES.
+               10  EXP-CUST-ADDR-LINES OCCURS 5 TIMES.
                    15  EXP-CUST-ADDR-LINE          PIC X(50).
                10  EXP-CUST-ADDR-STATE-CD          PIC X(02).
                10  EXP-CUST-ADDR-COUNTRY-CD        PIC X(03).
@@ -39,7 +39,7 @@
                10  EXP-CUST-EFT-ACCOUNT-ID         PIC X(10).
                10  EXP-CUST-PRI-CARD-HOLDER-IND    PIC X(01).
                10  EXP-CUST-FICO-CREDIT-SCORE      PIC 9(03) COMP-3.
-               10  FILLER                          PIC X(134).
+               10  FILLER                          PIC X(34).
 
       ******************************************************************
       * Account Record Structure - From CVACT01Y.cpy

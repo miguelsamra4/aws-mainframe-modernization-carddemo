@@ -12,7 +12,6 @@
            05  CUST-ADDR-STATE-CD                      PIC X(02).
            05  CUST-ADDR-COUNTRY-CD                    PIC X(03).
            05  CUST-ADDR-ZIP                           PIC X(10).
-           05  CUST-ADDR-UK-POSTCODE                   PIC X(08).
            05  CUST-PHONE-NUM-1                        PIC X(15).
            05  CUST-PHONE-NUM-2                        PIC X(15).
            05  CUST-SSN                                PIC 9(09).

@@ -31,7 +31,6 @@
                10  EXP-CUST-ADDR-STATE-CD          PIC X(02).
                10  EXP-CUST-ADDR-COUNTRY-CD        PIC X(03).
                10  EXP-CUST-ADDR-ZIP               PIC X(10).
-               10  EXP-CUST-ADDR-UK-POSTCODE      PIC X(08).
                10  EXP-CUST-PHONE-NUMS OCCURS 2 TIMES.
                    15  EXP-CUST-PHONE-NUM          PIC X(15).
                10  EXP-CUST-SSN                    PIC 9(09).

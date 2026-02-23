@@ -34,6 +34,7 @@
              10 CDEMO-CUST-FNAME              PIC X(25).
              10 CDEMO-CUST-MNAME              PIC X(25).
              10 CDEMO-CUST-LNAME              PIC X(25).
+             10 CDEMO-CUST-UK-POSTCODE        PIC X(08).
           05 CDEMO-ACCOUNT-INFO.
              10 CDEMO-ACCT-ID                 PIC 9(11).
              10 CDEMO-ACCT-STATUS             PIC X(01).

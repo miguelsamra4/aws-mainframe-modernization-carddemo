@@ -31,6 +31,7 @@
                10  EXP-CUST-ADDR-STATE-CD          PIC X(02).
                10  EXP-CUST-ADDR-COUNTRY-CD        PIC X(03).
                10  EXP-CUST-ADDR-ZIP               PIC X(10).
+               10  EXP-CUST-UK-POSTCODE            PIC X(08).
                10  EXP-CUST-PHONE-NUMS OCCURS 2 TIMES.
                    15  EXP-CUST-PHONE-NUM          PIC X(15).
                10  EXP-CUST-SSN                    PIC 9(09).
@@ -39,7 +40,7 @@
                10  EXP-CUST-EFT-ACCOUNT-ID         PIC X(10).
                10  EXP-CUST-PRI-CARD-HOLDER-IND    PIC X(01).
                10  EXP-CUST-FICO-CREDIT-SCORE      PIC 9(03) COMP-3.
-               10  FILLER                          PIC X(126).
+               10  FILLER                          PIC X(118).
 
       ******************************************************************
       * Account Record Structure - From CVACT01Y.cpy

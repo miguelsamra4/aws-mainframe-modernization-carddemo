@@ -39,7 +39,8 @@
                10  EXP-CUST-EFT-ACCOUNT-ID         PIC X(10).
                10  EXP-CUST-PRI-CARD-HOLDER-IND    PIC X(01).
                10  EXP-CUST-FICO-CREDIT-SCORE      PIC 9(03) COMP-3.
-               10  FILLER                          PIC X(126).
+               10  EXP-CUST-ADDR-UK-POSTCODE        PIC X(08).
+               10  FILLER                          PIC X(118).
 
       ******************************************************************
       * Account Record Structure - From CVACT01Y.cpy

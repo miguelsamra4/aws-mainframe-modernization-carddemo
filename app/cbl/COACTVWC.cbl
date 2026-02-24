@@ -513,7 +513,8 @@
                 MOVE CUST-ADDR-LINE-3     TO ACSCITYO OF CACTVWAO               
                 MOVE CUST-ADDR-STATE-CD   TO ACSSTTEO OF CACTVWAO               
                 MOVE CUST-ADDR-ZIP        TO ACSZIPCO OF CACTVWAO               
-                MOVE CUST-ADDR-COUNTRY-CD TO ACSCTRYO OF CACTVWAO               
+                 MOVE CUST-ADDR-COUNTRY-CD TO ACSCTRYO OF CACTVWAO               
+                MOVE CUST-UK-POSTCODE     TO ACSUKPCO OF CACTVWAO
                 MOVE CUST-PHONE-NUM-1     TO ACSPHN1O OF CACTVWAO               
                 MOVE CUST-PHONE-NUM-2     TO ACSPHN2O OF CACTVWAO               
                 MOVE CUST-GOVT-ISSUED-ID  TO ACSGOVTO OF CACTVWAO               

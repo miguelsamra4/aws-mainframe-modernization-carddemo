@@ -244,6 +244,12 @@
              03 ACSZIPCA    PICTURE X.
            02  FILLER   PICTURE X(4).
            02  ACSZIPCI  PIC X(5).
+           02  ACSUKPCL    COMP  PIC  S9(4).
+           02  ACSUKPCF    PICTURE X.
+           02  FILLER REDEFINES ACSUKPCF.
+             03 ACSUKPCA    PICTURE X.
+           02  FILLER   PICTURE X(4).
+           02  ACSUKPCI  PIC X(8).
            02  ACSCITYL    COMP  PIC  S9(4).
            02  ACSCITYF    PICTURE X.
            02  FILLER REDEFINES ACSCITYF.
@@ -570,6 +576,12 @@
            02  ACSZIPCH    PICTURE X.
            02  ACSZIPCV    PICTURE X.
            02  ACSZIPCO  PIC X(5).
+           02  FILLER PICTURE X(3).
+           02  ACSUKPCC    PICTURE X.
+           02  ACSUKPCP    PICTURE X.
+           02  ACSUKPCH    PICTURE X.
+           02  ACSUKPCV    PICTURE X.
+           02  ACSUKPCO  PIC X(8).
            02  FILLER PICTURE X(3).
            02  ACSCITYC    PICTURE X.
            02  ACSCITYP    PICTURE X.
